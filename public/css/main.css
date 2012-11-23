@@ -1,6 +1,6 @@
 #wrapper {
 	width: 960px;
-	margin: 30px auto 0px auto;
+	margin: 30px auto 30px auto;
 }
 
 #header {
@@ -78,7 +78,7 @@ h2 {
 	
 }
 
-#article-body p{
+#article-body p {
 	margin-bottom: 10px;
 	line-height: 1.5em;
 }
@@ -89,6 +89,50 @@ h2 {
 	margin: 0px 0px 0px 50px;
 }
 
+.widget-title {
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	display: block;
+}
+
+#follow-list li {
+	height: 35px;
+	margin-bottom: 5px;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+#follow-list .follow-name {
+	
+}
+
+#follow-list .follow-btn {
+	float: right;
+	width: 50px;
+	height: 24px;
+}
+
+#most-recent-list li {
+	margin-bottom: 5px;
+	line-height: 18px;
+	vertical-align: middle;
+}
+
+#most-recent-list li .most-recent-title {
+	display: block;
+}
+
+#most-recent-list li .most-recent-author {
+	display: block;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
 .clear {
 	clear: both;
+}
+
+#footer {
+	padding: 10px 30px 10px 30px;
 }
